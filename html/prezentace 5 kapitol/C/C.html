@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <title>Ovladače, firmware a utility</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+        <style>
+            h1, h2, h3{
+                background color: #0000ff;
+                font-family: Arial, sans-serif;
+            }
+            h1{
+                color: white;
+                font-size: 40pt;
+            }
+            h2{
+                color: violet;
+                font-size: 2em;
+            }
+            p{
+                font-family: 'Arial Narrow';
+            }
+        </style>
+</head>
+
+<body>
+    <header class="jumbotron text-center bg-primary">
+        <h1 class="display-1">Programy a data</h1>
+        <h2 class="display-4">Ovladače, firmware a utility</h2>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>K systémovému software můžeme kromě operačních systémů zařadit
+                    ovladače hardarových zařízení, firmware a aspoň zčásti i tzv. utility.</p>
+                <div>
+                    <h4 class="border-bottom pb-2 mb-4">Ovladače zařízení (<em>device drivers</em>)</h4>
+                    <p>Speciální programy, které zajišťují komunikaci
+                        OS s určitým technickým vybavením. Bez potřebného ovladače nemůže
+                        zařízení správně fungovat. Standardní ovladače pro běžná zařízení, jakými
+                        jsou flash disk, myš, klávesnice nebo digitální fotoaparáty, bývají součástí
+                        moderních OS. Instalaci zařízení ve Windows usnadňuje standard <strong>Plug and
+                        Play</strong> (<em>PnP - „připoj a hrej“</em>), který zajistí automatickou detekci nově připojeného
+                        hardware a případně i automatické vyhledání potřebného ovladače. Není-li
+                        driver nalezen přímo v OS, musí být použit externí instalátor ovladače z disku
+                        dodaného se zařízením (např. z instalačního CD k tiskárně), nebo stažený
+                        z internetových stránek, nejlépe přímo od výrobce. Nevhodně zvolený ovladač
+                        může v krajním případě způsobit nefunkčnost zařízení, někdy i celého OS.</p>
+                </div>
+                <div>
+                <h4 class="border-bottom pb-2 mb-4">Firmware</h4>
+                    <p>Programové vybavení, které slouží pro řízení nějakého vestavěného
+                        systému (<em>embedded system</em>). Firmware řídí například kalkulačky, počítačové
+                        komponenty (pevný disk, router…), mobilní telefon, digitální fotoaparát atd.
+                        Dříve byla aktualizace firmwaru realizována nahrazením paměťového média
+                        obsahujícího firmware (např. výměna ROM paměti), dnes může být novější verze
+                        firmware přepsána díky používaným flash pamětem. Základním firmwarem
+                        v počítači je <strong>BIOS</strong> (<em>Basic Output-Input System</em>), který zajišťuje především start
+                        počítače a umožňuje konfiguraci základní desky i připojeného hardware.</p>
+                </div>
+                <div>
+                    <h4 class="border-bottom pb-2 mb-4">Utility</h4>
+                    <p>Jsou menší pomocné programy, které umožňují vykonávat servisní
+                        operace potřebné k fungování počítače. Patří k nim komprimační programy,
+                        diagnostické a testovací programy, utility pro kontrolu a optimalizaci operačního
+                        systému, různé konverzní (převodní) programy, které umí přehledně zobrazit
+                        obrázky, převést je z jednoho formátu na jiný atd. Řada utilit je integrální
+                        součástí OS. Příkladem může být Správce úloh ve Windows (<em>Task Manager</em>),
+                        který umožňuje nejen správu spuštěných programů a služeb, ale i sledování
+                        využití systémových zdrojů (procesoru, paměti). Dalšími užitečnými utilitami
+                        jsou nástroje pro defragmentaci (defrag) nebo kontrolu disku (chkdsk). Některé
+                        utility lze spouštět z příkazového řádku (<em>ping, ipconfig apod</em>.).</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </main>
+        
+        <footer>
+            <hr>
+            <p align="center">&copy; Jakub Trulley, IT1 </p>
+        </footer>
+
+                    <!-- Optional JavaScript -->
+                    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                        crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                        crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                        crossorigin="anonymous"></script>
+</body>
+
+</html>
